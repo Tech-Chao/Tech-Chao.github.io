@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>咸鱼者说</title>
-    <link>https://www.techchao.com/</link>
-    <description>Recent content on 咸鱼者说</description>
+    <title>V2Ray on 咸鱼者说</title>
+    <link>https://www.techchao.com/tags/v2ray/</link>
+    <description>Recent content in V2Ray on 咸鱼者说</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.techchao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.techchao.com/tags/v2ray/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搬瓦工&#43;V2ray科学上网搭建新手指南</title>
       <link>https://www.techchao.com/post/%E6%90%AC%E7%93%A6%E5%B7%A5vps%E6%90%AD%E5%BB%BA/</link>
