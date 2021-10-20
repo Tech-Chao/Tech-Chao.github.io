@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="zh-cn" data-figures="">
+<html lang="zh-cn" data-figures="" class="page">
   <head>
-<title>V2Ray | 咸鱼者说</title>
+<title>搬瓦工&#43;V2ray科学上网搭建新手指南 | 咸鱼者说</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,23 +23,23 @@
   })();
 </script>
 
+  
 <meta property="og:locale" content="zh-cn" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="搬瓦工（BandwagonHost）教程 &#43; V2Ray &#43; clashX 搭建新手指南">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="V2Ray" />
-<meta property="og:url" content="https://www.techchao.com/tags/v2ray/" />
-<meta property="og:title" content="V2Ray" />
-<meta property="og:description" content="" />
+<meta name="twitter:title" content="搬瓦工&#43;V2ray科学上网搭建新手指南" />
+<meta property="og:url" content="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" />
+<meta property="og:title" content="搬瓦工&#43;V2ray科学上网搭建新手指南" />
+<meta property="og:description" content="搬瓦工（BandwagonHost）教程 &#43; V2Ray &#43; clashX 搭建新手指南" />
 <meta property="og:image" content="https://www.techchao.com/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.techchao.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.techchao.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.techchao.com/icons/site.webmanifest">
-<link rel="canonical" href="https://www.techchao.com/tags/v2ray/">
-<link rel="alternate" type="application/rss+xml" href="https://www.techchao.com/tags/v2ray/index.xml" title="咸鱼者说" />
+<link rel="canonical" href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/">
 
     
 
@@ -117,16 +117,10 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <ul class="posts" id="posts">
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" title="搬瓦工&#43;V2ray科学上网搭建新手指南">搬瓦工&#43;V2ray科学上网搭建新手指南</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">搬瓦工&#43;V2ray科学上网搭建新手指南</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <use xlink:href="#calendar"></use>
@@ -165,25 +159,224 @@
   </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div>
-          <p class="pale">
-            
-              <p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_logo.png" alt=""></p>
+    
+    
+    <h2>文章目录</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一前言">一、前言</a></li>
+    <li><a href="#二准备工作">二、准备工作</a></li>
+    <li><a href="#三vps购买">三、VPS购买</a></li>
+    <li><a href="#四购买步骤">四、购买步骤</a>
+      <ul>
+        <li><a href="#1核对方案配置以及选择时间期限和机房">1、核对方案配置以及选择时间期限和机房</a></li>
+        <li><a href="#2登录或者新注册搬瓦工账户">2、登录或者新注册搬瓦工账户</a></li>
+        <li><a href="#3进入支付选择页面">3、进入支付选择页面</a></li>
+      </ul>
+    </li>
+    <li><a href="#五获取-vps-信息">五、获取 VPS 信息</a></li>
+    <li><a href="#六安装-xshellwindows或-iterm2macos">六、安装 Xshell（WINDOWS）或 iTerm2（macOS）</a></li>
+    <li><a href="#七登录-vps">七、登录 VPS</a></li>
+    <li><a href="#八安装-v2ray">八、安装 V2Ray</a></li>
+    <li><a href="#九v2ray-客户端使用教程">九、V2Ray 客户端使用教程</a></li>
+    <li><a href="#更多">更多</a></li>
+  </ul>
+</nav>
+    <p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_logo.png" alt=""></p>
 <h2 id="一前言">一、前言</h2>
 <p>相较于目前市面上烂大街的 SSR 翻墙，V2RAY在安全、伪装、稳定等方面几乎是碾压 SSR，本教程介绍了如何搭建和使用 V2Ray ,就算是新手只要按照步骤进行操作一样可以搭建成功。</p>
-            
-          </p>
-          <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
+<h2 id="二准备工作">二、准备工作</h2>
+<p>在搭建工作开始之前，你需要知道你需要经历哪些步骤：</p>
+<ul>
+<li>购买一个 VPS：想要搭建 V2Ray，就必须要拥有一台 VPS。</li>
+<li>获取 VPS 信息：我们必须要知道 VPS IP 地址，root 用户密码，SSH 端口</li>
+<li>安装 Xshell（WINDOWS）iTerm2（macOS）: Xshell 是一个 SSH 客户端，iTerm2 则是 MAC 平台的 SSH客户端。要登录 VPS，当然需要 SSH 客户端</li>
+<li>登录 VPS: 使用 Xshell 配置 VPS SSH 信息，然后登录</li>
+<li>安装 V2Ray:安装过程你可以随意选择你喜欢的传输协议或者配置 Shadowsocks</li>
+<li>V2Ray 安装完成: 此时你可以使用客户端配置 V2Ray 使用了</li>
+</ul>
+<h2 id="三vps购买">三、VPS购买</h2>
+<p>推荐购买<a href="https://bwh81.net/aff.php?aff=35290">搬瓦工</a>，<a href="https://bwh81.net/aff.php?aff=35290">搬瓦工</a>主打小微型 VPS 主机和超低价年付方案。曾经在很长时间内推出过年付不足5美元的超低价 VPS，而且还支持支付宝付款，可以说是对国内用户友好度极佳。 但随着使用人数的增多，<a href="https://bwh81.net/aff.php?aff=35290">搬瓦工</a>目前已经砍掉了所有的低价套餐，目前在售最低的年付套餐时 49.9 美元，在同类VPS中性价比也算能打。</p>
+<p>一般来说，推荐购买 香港线路 或 CN2 GIA 线路，或者哪个便宜选择那个，如果个人建站练手或使用科学上网的话直接购买<a href="https://bwh81.net/aff.php?aff=35290&amp;pid=57">年$49.99CN2(入门) ）</a>,当然如果你使用量比较多或者想要分享给同学和朋友一起用的话，选择合适的套餐即可。直接年付优惠是最大的,又或者你土豪的话，选择最贵的也行。</p>
+<p>销售火爆的套餐：</p>
+<table>
+<thead>
+<tr>
+<th>套餐</th>
+<th>CPU</th>
+<th>内存</th>
+<th>硬盘</th>
+<th>流量</th>
+<th>带宽   chch</th>
+<th>价格</th>
+<th>购买链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CN2(入门)</td>
+<td>1核</td>
+<td>1GB</td>
+<td>20GB SSD</td>
+<td>1000GB /月</td>
+<td>1Gbps</td>
+<td><strong>年$49.99</strong></td>
+<td><a href="https://bwh81.net/aff.php?aff=35290&amp;pid=57">点击购买</a></td>
+</tr>
+<tr>
+<td>CN2 GIA-E</td>
+<td>2核</td>
+<td>1GB</td>
+<td>20GB SSD</td>
+<td>1000GB /月</td>
+<td>2.5Gbps</td>
+<td><strong>季$49.99 年$169.99</strong></td>
+<td><a href="https://bwh81.net/aff.php?aff=35290&amp;pid=87">点击购买</a></td>
+</tr>
+<tr>
+<td>HK</td>
+<td>2核</td>
+<td>2GB</td>
+<td>40GB SSD</td>
+<td>500GB /月</td>
+<td>1Gbps</td>
+<td><strong>季$89.99 年$899.99</strong></td>
+<td><a href="https://bwh81.net/aff.php?aff=35290&amp;pid=95">点击购买</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="四购买步骤">四、购买步骤</h2>
+<h3 id="1核对方案配置以及选择时间期限和机房">1、核对方案配置以及选择时间期限和机房</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgprepay.jpg" alt=""></p>
+<p>我们然后会看到上图所示的界面，根据图示我们需要确定选择的方案以及时间，默认是洛杉矶机房，目前我，点击&quot;ADD TO CART&quot;添加购物车。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_checkout.jpg" alt=""></p>
+<blockquote>
+<p><del>可使用<code>bwh8ZBPVK</code>优惠码,再减6%.</del>(该优惠码失效，使用<code>BWH3HYATVBJW </code>优惠6.58%)
+核对我们选择方案的价格，没有问题后点击CHECKOUT结账。</p>
+</blockquote>
+<h3 id="2登录或者新注册搬瓦工账户">2、登录或者新注册搬瓦工账户</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_register.jpg" alt=""></p>
+<p>如上图，如果我们有过账户，可以直接点击&quot;Click here to login&quot;登录以及付款就可以，如果还没有账户则需要注册账户。个人信息不要真实的，但也不能太离谱和乱写字符出来，好歹也要稍微用点拼音。</p>
+<h3 id="3进入支付选择页面">3、进入支付选择页面</h3>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbgw_pau.png" alt=""></p>
+<p>选择支付宝完成支付。</p>
+<h2 id="五获取-vps-信息">五、获取 VPS 信息</h2>
+<p>购买完 VPS 之后，接着我们开始获取 VPS 信息。</p>
+<ol>
+<li>选择My Services</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgmy_service.png" alt=""></p>
+<ol start="2">
+<li>进入kimivm control panel</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgcontrol_panel.jpg" alt=""></p>
+<ol start="3">
+<li>获取 IP 地址 和 端口号</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgip_port_main.png" alt=""></p>
+<h2 id="六安装-xshellwindows或-iterm2macos">六、安装 Xshell（WINDOWS）或 iTerm2（macOS）</h2>
+<ol>
+<li>
+<p>iTerm2下载地址：<a href="https://iterm2.com/downloads.html">https://iterm2.com/downloads.html</a></p>
+</li>
+<li>
+<p>Xshell下载地址：<a href="https://www.netsarang.com/zh/free-for-home-school/">https://www.netsarang.com/zh/free-for-home-school/</a></p>
+</li>
+</ol>
+<h2 id="七登录-vps">七、登录 VPS</h2>
+<p>以 Xshell登录 VPS 为例，打开软件之后我们需要新建一个窗口SSH.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgxshell_panel.png" alt=""></p>
+<p>拿到我们上一步获取到的 IP 和 端口号，填入输入框</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgpwd_input.png" alt=""></p>
+<p>用户名我们没有特别设置之后，就是默认的root，然后是密码。然后保存之后就可以连接。
+<img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgpwd_input.png" alt=""></p>
+<p>小提示：如果连接后出现提示“WARNING! The remote SSH server rejected X11 forwarding request.”，不要担心。运行下面的命令就可以解决，Xshell界面支持鼠标右键的复制粘贴，按回车键就可以运行命令。（键盘的Ctrl+C、Ctrl+V是无效的哦）完成后重新连接vps服务器即可。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>yum install xorg-x11-xauth -y
+</code></pre></div><h2 id="八安装-v2ray">八、安装 V2Ray</h2>
+<p>输入下面命令回车，你可以复制过去，然后在 Xshell 界面右键或者按 Shift + Insert 即可粘贴。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>bash &lt;(curl -s -L https://git.io/v2ray.sh)
+</code></pre></div>
+<div class="notices tip">
+    <div class="label">Tip</div>
+    <p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
+ubuntu/debian 系统安装 Curl 方法: apt-get update -y &amp;&amp; apt-get install curl -y
+centos 系统安装 Curl 方法: yum update -y &amp;&amp; yum install curl -y
+安装好 curl 之后就能安装脚本了</p>
 
-    <li>
-    </li>
-  </ul>
+  </div>
+
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_setting.png" alt=""></p>
+<ul>
+<li>然后选择安装，即是输入 1 回车,</li>
+<li>选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车</li>
+<li>然后会提示你“请输入 V2Ray 端口”，端口范围在“1-65535”之间，选择端口，如果没有特别的需求，使用默认的端口即可，直接回车</li>
+<li>是否屏蔽广告，除非你真的需要，一般来说，直接回车即可</li>
+<li>这时会提示你“是否配置 Shadowsocks ”，默认为“N”不配置 Shadowsocks，输入“Y”回车代表配置 Shadowsocks，直接回车即可。</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_config.png" alt=""></p>
+<p>按照上图信息设置完毕后“回车”会看到下图提示，</p>
+<p>———- 安装信息 ————-</p>
+<p>V2Ray 传输协议 = TCP</p>
+<p>V2Ray 端口 = 54321</p>
+<p>是否配置 Shadowsocks = 未配置</p>
+<p>———- END ————-</p>
+<p>然后提示你“按 Enter 回车键 继续….或按 Ctrl + C 取消”，我们按“Enter”键回车后安装 V2ray，如图（安装信息可能会因你的配置而变化，不用在乎截图信息）：
+<img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_config_confirm.png" alt=""></p>
+<p>接下来就是 V2ray 的安装过程，耐心等待即可，V2ray 安装完成后如图：
+<img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_success.png" alt=" =100x100"></p>
+<p>上图的 V2ray 配置信息，用 V2RAY 的客户端配置号上图信息就能正常的科学上网了。</p>
+<p>如果需要生成“vmess URL 链接”或者“二维码图片”输入以下命令：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span># vmess URL 链接
+<span class="ln">2</span>v2ray url
+<span class="ln">3</span># 二维码图片
+<span class="ln">4</span>v2ray qe
+</code></pre></div><h2 id="九v2ray-客户端使用教程">九、V2Ray 客户端使用教程</h2>
+<p>在配置服务器成功之后,我们有了上面的 V2ray 配置信息后，通过下载相应的客户端进行配置后就能够连接外网了。</p>
+<p>目前我在用的是 <strong>Clash</strong>(颜值在线)，而且除了 iOS 平台下载不方便外，Windows、Mac、Android都已支持。</p>
+<ol>
+<li>Mac+ClashX: <a href="https://github.com/yichengchen/clashX/releases">clashX-v1.30.1.dmg</a></li>
+<li>Windows+Clash: <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash.for.windows-0.11.6.exe</a></li>
+<li>Android+Clash: <a href="https://github.com/Kr328/ClashForAndroid/releases">ClashForAndroid-v2.0.18.apk</a></li>
+<li>iOS 用户:目前 App store 上没有免费 V2Ray 客户端，付费的 V2Ray 客户端有：
+<ul>
+<li>Shadowrocket（俗称小火箭，注意不是 shadowrocket VPN）</li>
+<li>i2Ray</li>
+<li>pepi</li>
+<li>Kitsunebi</li>
+<li>Quantumult（内置免费节点）
+因政策原因，这些应用在国内 App Store 上无法搜索到，请从其它地方找一个可用的境外 Apple ID，切换 App Store 然后再下载</li>
+</ul>
+</li>
+</ol>
+<p>如果不知道怎么配置客户端的话，可以在更多中查看配置教程。</p>
+<h2 id="更多">更多</h2>
+<ul>
+<li><a href="https://www.v2rayssr.com/v2rayssr.html">V2Ray和SSR有什么区别</a></li>
+<li><a href="https://v2xtls.org/v2ray%e5%ae%a2%e6%88%b7%e7%ab%af/">V2Ray 客户端大全</a></li>
+<li><a href="https://v2xtls.org/clash-for-windows%E9%85%8D%E7%BD%AEv2ray%E6%95%99%E7%A8%8B/">Clash for Windows 配置教程</a></li>
+<li><a href="https://v2xtls.org/clashx%E9%85%8D%E7%BD%AEv2ray%E6%95%99%E7%A8%8B/">ClashX for Mac 配置教程</a></li>
+</ul><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-techchao-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
         <h2>咸鱼者说</h2>
@@ -193,9 +386,6 @@
       <a href='https://www.techchao.com/about/' class="button mt-1" role="button" title='阅读更多'>阅读更多</a>
     <h2 class="mt-4">最新文章</h2>
     <ul class="flex-column">
-      <li>
-        <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" class="nav-link" title="搬瓦工&#43;V2ray科学上网搭建新手指南">搬瓦工&#43;V2ray科学上网搭建新手指南</a>
-      </li>
     </ul>
     <div>
       <h2 class="mt-4 taxonomy" id="categories-section">分类</h2>
@@ -232,9 +422,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
