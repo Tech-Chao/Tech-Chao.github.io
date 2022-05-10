@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="zh-cn" data-figures="">
+<html lang="zh-cn" data-figures="" class="page">
   <head>
-<title>Posts | 咸鱼者说</title>
+<title>iOS 性能优化——启动时间 | 咸鱼者说</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,20 +27,19 @@
 <meta property="og:locale" content="zh-cn" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="iOS开发 | App启动时间优化 ">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Posts" />
-<meta property="og:url" content="https://www.techchao.com/post/" />
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
+<meta name="twitter:title" content="iOS 性能优化——启动时间" />
+<meta property="og:url" content="https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/" />
+<meta property="og:title" content="iOS 性能优化——启动时间" />
+<meta property="og:description" content="iOS开发 | App启动时间优化 " />
 <meta property="og:image" content="https://www.techchao.com/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.techchao.com/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.techchao.com/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.techchao.com/icons/site.webmanifest">
-<link rel="canonical" href="https://www.techchao.com/post/">
-<link rel="alternate" type="application/rss+xml" href="https://www.techchao.com/post/index.xml" title="咸鱼者说" />
+<link rel="canonical" href="https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/">
 
     
 
@@ -118,16 +117,10 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <ul class="posts" id="posts">
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/" title="iOS 性能优化——启动时间">iOS 性能优化——启动时间</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">iOS 性能优化——启动时间</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <use xlink:href="#calendar"></use>
@@ -165,149 +158,142 @@
   </span>
   </div>
 
-    </div>
-      <div class="excerpt_footer">
-        <div>
-          <p class="pale">
-            
-              本篇是 iOS 性能优化系列的第一篇，讲述关于 App 的启动时长的优化
- 前言 用户对于 App 的第一印象就是 App 的启动时长，如果 App 启动的时长过长对于用户的体验可想而知
-在WWDC 2019 Optimizing App Launch中的将 App 的启动分为冷启动（Cold）、热启动（Warm）和恢复启动（Resume）。
- 冷启动（Cold）：系统刚重启后、应用没有在内存中、应用的进程并不在系统中，需要系统创建一个进程分配给它，这是一个完整的启动过程 热启动（Warm）： 应用刚刚结束、应用的部分资源还在内存中，应用进程不在系统中 复启动（Resume）：APP 没结束，只是暂停，全在内存中，进程也存在。  我 …
-            
-          </p>
-          <a href="https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" title="搬瓦工&#43;V2ray科学上网搭建新手指南">搬瓦工&#43;V2ray科学上网搭建新手指南</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <use xlink:href="#calendar"></use>
-</svg></span>
-    <span class="post_date">
-      Oct 5, 2021</span>
-    <span class="post_time"> · 2 min read</span><span>&nbsp;· <a href='https://www.techchao.com/tags/%E6%90%AC%E7%93%A6%E5%B7%A5' title="搬瓦工" class="post_tag button button_translucent">搬瓦工
-        </a><a href='https://www.techchao.com/tags/vps' title="VPS" class="post_tag button button_translucent">VPS
-        </a><a href='https://www.techchao.com/tags/v2ray' title="V2Ray" class="post_tag button button_translucent">V2Ray
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=%e6%90%ac%e7%93%a6%e5%b7%a5%2bV2ray%e7%a7%91%e5%ad%a6%e4%b8%8a%e7%bd%91%e6%90%ad%e5%bb%ba%e6%96%b0%e6%89%8b%e6%8c%87%e5%8d%97&url=https%3a%2f%2fwww.techchao.com%2fpost%2fbandwagon-host-v2ray-beginners-guide%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <use xlink:href="#twitter"></use>
-</svg>
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.techchao.com%2fpost%2fbandwagon-host-v2ray-beginners-guide%2f&t=%e6%90%ac%e7%93%a6%e5%b7%a5%2bV2ray%e7%a7%91%e5%ad%a6%e4%b8%8a%e7%bd%91%e6%90%ad%e5%bb%ba%e6%96%b0%e6%89%8b%e6%8c%87%e5%8d%97" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <use xlink:href="#facebook"></use>
-</svg>
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <use xlink:href="#linkedin"></use>
-</svg>
-    </a>
-    <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <use xlink:href="#copy"></use>
-</svg>
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div>
-          <p class="pale">
-            
-              <p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_logo.png" alt=""></p>
-<h2 id="一前言">一、前言</h2>
-<p>相较于目前市面上烂大街的 SSR 翻墙，V2RAY在安全、伪装、稳定等方面几乎是碾压 SSR，本教程介绍了如何搭建和使用 V2Ray ,就算是新手只要按照步骤进行操作一样可以搭建成功。</p>
-            
-          </p>
-          <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.techchao.com/post/rich-content/" title="Rich Content">Rich Content</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <use xlink:href="#calendar"></use>
-</svg></span>
-    <span class="post_date">
-      Mar 10, 2019</span>
-    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://www.techchao.com/tags/shortcodes' title="shortcodes" class="post_tag button button_translucent">shortcodes
-        </a><a href='https://www.techchao.com/tags/privacy' title="privacy" class="post_tag button button_translucent">privacy
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    分享到:
-    <a href="https://twitter.com/intent/tweet?text=Rich%20Content&url=https%3a%2f%2fwww.techchao.com%2fpost%2frich-content%2f&tw_p=tweetbutton" class="twitter" title="分享到 Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <use xlink:href="#twitter"></use>
-</svg>
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.techchao.com%2fpost%2frich-content%2f&t=Rich%20Content" class="facebook" title="分享到 Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <use xlink:href="#facebook"></use>
-</svg>
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="分享到 LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <use xlink:href="#linkedin"></use>
-</svg>
-    </a>
-    <a href="https://www.techchao.com/post/rich-content/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <use xlink:href="#copy"></use>
-</svg>
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-    <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail">
-        <img src='https://www.techchao.com/images/dollar.png' alt="Rich Content">
-      </div>
-      
-        <div>
-          <p class="pale">
-            
-              <p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
-            
-          </p>
-          <a href="https://www.techchao.com/post/rich-content/" title="阅读更多" class="excerpt_more button">阅读更多</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-    <li>
+    
+    
+    <h2>文章目录</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#启动阶段分析">启动阶段分析</a>
+      <ul>
+        <li><a href="#system-interface">System Interface</a></li>
+        <li><a href="#runtime-init">Runtime Init</a></li>
+        <li><a href="#uikit-init">UIKit Init</a></li>
+        <li><a href="#initial-frame-render">Initial Frame Render</a></li>
+        <li><a href="#extended">Extended</a></li>
+      </ul>
     </li>
+    <li><a href="#各阶段优化">各阶段优化</a></li>
   </ul>
+</nav>
+    <blockquote>
+<p>本篇是 iOS 性能优化系列的第一篇，讲述关于 App 的启动时长的优化</p>
+</blockquote>
+<h2 id="前言">前言</h2>
+<p>用户对于 App 的第一印象就是 App 的启动时长，如果 App 启动的时长过长对于用户的体验可想而知</p>
+<p>在<a href="https://developer.apple.com/videos/play/wwdc2019/423/">WWDC 2019 Optimizing App Launch</a>中的将 App 的启动分为冷启动（Cold）、热启动（Warm）和恢复启动（Resume）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/ios/Lanuch_Types.png" alt=""></p>
+<ul>
+<li>冷启动（Cold）：系统刚重启后、应用没有在内存中、应用的进程并不在系统中，需要系统创建一个进程分配给它，这是一个完整的启动过程</li>
+<li>热启动（Warm）： 应用刚刚结束、应用的部分资源还在内存中，应用进程不在系统中</li>
+<li>复启动（Resume）：APP 没结束，只是暂停，全在内存中，进程也存在。</li>
+</ul>
+<p>我们对 App 启动时长的优化一般针对的是 App 的冷启动时长优化，根据 WWDC 的介绍，如果我们将首屏的渲染时间降低到 400ms（系统启动动画时长） 以内，那么用户的体验将会有极大的提升。</p>
+<p>接下来，让我们按步骤一步步来优化启动时长：</p>
+<ol>
+<li>了解App启动的各阶段任务</li>
+<li>分析各阶段任务的时长</li>
+<li>有针对性的优化每个步骤的时长</li>
+</ol>
+<p>同时为了准确的测量 App 的启动时长，我们对测试环境有一定的要求：</p>
+<ul>
+<li>重启手机并放置一段时间</li>
+<li>设置飞行模式或采用 Mock 网络请求的方式来减少不稳定的网络影响测试数据</li>
+<li>退出 iCloud 账号</li>
+<li>使用 Release 的包进行测试</li>
+<li>采用当前主流的设备，而不是最新或者是太久的手机</li>
+</ul>
+<h2 id="启动阶段分析">启动阶段分析</h2>
+<p>优化之前我们需要知道 App 启动时有哪些阶段，每个阶段都做了哪些事情，有哪些地方是我们可以优化的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/ios/Phases_of_App_Launch.png" alt=""></p>
+<p>以上6个阶段从系统初始化到 App 初始化，再到 UI 视图的创建和布局，还有 App 数据的异步加载等扩展功能,</p>
+<h3 id="system-interface">System Interface</h3>
+<p>在 System Interface 阶段时由操作系统控制，主要包含以下任务：</p>
+<ul>
+<li>加载可执行文件（Mach-O格式）到内存空间</li>
+<li>执行一系列动态链接操作,进行 rebase 指针调整和 bind 符号绑定；</li>
+</ul>
+<p>Mach-O 文件类型主要分为：</p>
+<ul>
+<li>中间对象文件（MH_OBJECT）</li>
+<li>可执行二进制（MH_EXECUTE）</li>
+<li>VM 共享库文件（MH_FVMLIB）</li>
+<li>Crash 产生的 Core 文件（MH_CORE）</li>
+<li>preload（MH_PRELOAD）</li>
+<li>动态共享库（MH_DYLIB）</li>
+<li>动态链接器（MH_DYLINKER）</li>
+<li>静态链接文件（MH_DYLIB_STUB）符号文件和调试信息（MH_DSYM）这几种。</li>
+</ul>
+<p>dyld 动态链接库也是 Mach-o 类型，所以会也会先加载到内存中 ，加载完后dyld会递归加载 App 依赖的动态库，然后执行符号绑定Rebase, Bind。一般应用会加载 100 到 400 个 dylib 文件，幸运是大部分是系统库，且系统会在操作系统启动时计算和缓存系统动态库。</p>
+<h3 id="runtime-init">Runtime Init</h3>
+<ul>
+<li>
+<p>Objc 和 Swift 的初始化</p>
+<p>通过_dyld_objc_notify_register注册回调完成相关类的注册，在 image 加载完时初始化语言相关。</p>
+</li>
+<li>
+<p>加载 category</p>
+<p>在上面语言初始化完之后，会加载所有 category，将 category 的所有方法，协议和属性加载到对应的主类中。</p>
+</li>
+<li>
+<p>调用所有+load</p>
+<p>在 image 加载完时，通过load_images 触发，处理该 image 相关的所有+load 方法，按照继承层级依次调用：父类+load→子类+load→category +load，注意 category 的+load 不会覆盖原类。</p>
+</li>
+<li>
+<p>调用 C++的构造函数属性函数 attribute((constructor))</p>
+</li>
+</ul>
+<h3 id="uikit-init">UIKit Init</h3>
+<ul>
+<li>
+<p>实例化 UIApplication 和 UIApplicationDelegate</p>
+</li>
+<li>
+<p>开始事件处理和系统集成</p>
+</li>
+<li>
+<p>Application Init</p>
+<ul>
+<li>这部分是我们熟悉的 UIApplicationDelegate 的几个生命周期调用：</li>
+<li>application:willFinishLaunchingWithOptions:</li>
+<li>application:didFinishLaunchingWithOptions:</li>
+<li>applicationDidBecomeActive:</li>
+<li>scene:willConnectToSession:options:</li>
+<li>sceneWillEnterForeground:</li>
+<li>sceneDidBecomeActive:</li>
+</ul>
+</li>
+</ul>
+<h3 id="initial-frame-render">Initial Frame Render</h3>
+<p>首页第一帧的渲染，包含了创建、布局和绘制视图的工作，并把准备好的第一帧提交给渲染层渲染，以下方面会被调用</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>loadView
+<span class="ln">2</span>viewDidLoad
+<span class="ln">3</span>layoutSubviews
+</code></pre></div><h3 id="extended">Extended</h3>
+<p>Extended 主要是一些扩展的任务，苹果给出的定义是在首屏显示后，App 响应用户的操作的同时，可能存在异步请求数据，等到数据返回后重新渲染首页。</p>
+<h2 id="各阶段优化">各阶段优化</h2>
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-techchao-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
         <h2>咸鱼者说</h2>
@@ -317,9 +303,6 @@
       <a href='https://www.techchao.com/about/' class="button mt-1" role="button" title='阅读更多'>阅读更多</a>
     <h2 class="mt-4">最新文章</h2>
     <ul class="flex-column">
-      <li>
-        <a href="https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/" class="nav-link" title="iOS 性能优化——启动时间">iOS 性能优化——启动时间</a>
-      </li>
       <li>
         <a href="https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/" class="nav-link" title="搬瓦工&#43;V2ray科学上网搭建新手指南">搬瓦工&#43;V2ray科学上网搭建新手指南</a>
       </li>
@@ -387,9 +370,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
