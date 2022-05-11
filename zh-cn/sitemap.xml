@@ -23,7 +23,13 @@
     <loc>https://www.techchao.com/posts/</loc>
     <lastmod>2022-05-10T16:42:05+08:00</lastmod>
   </url><url>
+    <loc>https://www.techchao.com/post/</loc>
+    <lastmod>2022-05-10T16:42:05+08:00</lastmod>
+  </url><url>
     <loc>https://www.techchao.com/posts/privacy/</loc>
+    <lastmod>2022-05-10T16:42:05+08:00</lastmod>
+  </url><url>
+    <loc>https://www.techchao.com/post/privacy/</loc>
     <lastmod>2022-05-10T16:42:05+08:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/tags/app-%E5%90%AF%E5%8A%A8%E6%97%B6%E9%97%B4/</loc>
@@ -54,9 +60,6 @@
     <lastmod>2021-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/post/</loc>
     <lastmod>2021-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/tags/</loc>
