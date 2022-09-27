@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.techchao.com/</loc>
-    <lastmod>2022-05-10T16:42:05+08:00</lastmod>
+    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,6 +19,12 @@
                 hreflang="zh-cn"
                 href="https://www.techchao.com/"
                 />
+  </url><url>
+    <loc>https://www.techchao.com/post/2022ssr-v2ray/</loc>
+    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+  </url><url>
+    <loc>https://www.techchao.com/post/</loc>
+    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/categories/</loc>
     <lastmod>2022-05-10T16:42:05+08:00</lastmod>
@@ -37,15 +43,6 @@
                 hreflang="zh-cn"
                 href="https://www.techchao.com/categories/"
                 />
-  </url><url>
-    <loc>https://www.techchao.com/posts/</loc>
-    <lastmod>2022-05-10T16:42:05+08:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/post/</loc>
-    <lastmod>2022-05-10T16:42:05+08:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/posts/privacy/</loc>
-    <lastmod>2022-05-10T16:42:05+08:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/tags/</loc>
     <lastmod>2022-05-10T16:42:05+08:00</lastmod>
@@ -74,18 +71,6 @@
     <loc>https://www.techchao.com/tags/%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96/</loc>
     <lastmod>2022-05-10T16:42:05+08:00</lastmod>
   </url><url>
-    <loc>https://www.techchao.com/tags/app-%E5%90%AF%E5%8A%A8%E6%97%B6%E9%97%B4/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/categories/ios/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/tags/ios-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.techchao.com/tags/v2ray/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -104,27 +89,8 @@
     <loc>https://www.techchao.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.techchao.com/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/post/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.techchao.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://www.techchao.com/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.techchao.com/about/"
-                />
   </url><url>
     <loc>https://www.techchao.com/series/</loc>
     <xhtml:link

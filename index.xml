@@ -7,7 +7,82 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 10 May 2022 16:42:05 +0800</lastBuildDate><atom:link href="https://www.techchao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 17:18:59 +0800</lastBuildDate><atom:link href="https://www.techchao.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022SSR、V2ray节点订阅机场推荐</title>
+      <link>https://www.techchao.com/post/2022ssr-v2ray/</link>
+      <pubDate>Mon, 26 Sep 2022 17:18:59 +0800</pubDate>
+      
+      <guid>https://www.techchao.com/post/2022ssr-v2ray/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/ios/airport.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;机场介绍&#34;&gt;机场介绍&lt;/h2&gt;
+&lt;p&gt;前文讲过我们可以通过&lt;a href=&#34;https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/&#34;&gt;搬瓦工&lt;/a&gt;自行搭建节点外，我们还可以通过付费订阅SSR来实现科学上网，相较于自行搭建使用订阅减去了很多繁琐的步骤，只要购买订阅，直接使用即可。优点在于无需自己搭建维护，可以拥有多个国家的节点，自由切换IP，缺点在于费用较贵，适用于动手能力较弱的小白。&lt;/p&gt;
+&lt;p&gt;我们可以将订阅比作是飞机场，如果要出去可以任选飞机可以到达各个国家，无需自己来造飞机或者维护就是费用较贵，而自行搭建的类似于固定路线的私人飞机，需要自己搭建及维护，目的地只能有一个，而且如果路线被禁后可能需要付费开通另外行线。&lt;/p&gt;
+&lt;p&gt;购买建议：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;尽量买有实力的机场，开的久的大机场跑路概率小，小机场可能便宜，但说不定明天就跑路了&lt;/li&gt;
+&lt;li&gt;不要太关心支持的协议，购买机场要看中的是线路的稳定，&lt;/li&gt;
+&lt;li&gt;别买太久的时间，考虑月付、季付、年付（大机场考虑），不要超过年付。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下面有几个稳定的机场推荐，包括ssr、ss、v2ray、trojan等协议：&lt;/p&gt;
+&lt;h3 id=&#34;一gacloud&#34;&gt;一、Gacloud&lt;/h3&gt;
+&lt;p&gt;专线机场，华为云广州入口，隧道至香港的CN2，香港老板，已有机场行业多年经验。自己开发的面板。稳定性不错，有按量付费和自定义套餐选项，也可以当备用。会员免费送奈菲会员体验券。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网（通过这个链接注册新用户无门槛7.5折优惠券）：&lt;a href=&#34;https://invitation.gacloud.ltd/auth/register?code=oikW&#34;&gt;Gacloud&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;节点国家与地区：香港、日本、新加坡、美国、台湾
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;UDP: 部分支持Full Cone
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;开业时间：2021
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;入口ip数量: 2 （深圳和上海）
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;付款方式：支付宝
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;小白客户端：有
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;协议：SS+SSR+Trojan+v2ray
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;二tagss&#34;&gt;二、TAGSS&lt;/h3&gt;
+&lt;p&gt;南部和北部节点 （港台新澳欧洲）走广州华为云入口，过境广港专线；东部节点（日韩美、南美）走上海华为云入口，过境沪日专线。
+特色：有大量冷门节点，全球80+国家地区，各地家宽IP、原生ip，最多国家的机场，没有之一。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://tagss.pro#/register?invite=2Vae6M6E&#34;&gt;TAGSS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;节点国家与地区：非常多
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;入口：广州、上海
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;UDP：大部分支持Full Cone
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;落地：80+个国家 网络监控
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;开业时间：2018
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;落地ip数量 170+
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;协议：SSR
+&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;付款方式：支付宝
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;三stc-server&#34;&gt;三、STC-SERVER&lt;/h3&gt;
+&lt;p&gt;SSR + V2RAY协议机场，老板在香港，可以月付。也有按量付费。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://www2.gardenparty.me/auth/register?code=G3D8&#34;&gt;STC-SERVER&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;节点国家与地区：香港、日本、新加坡、美国、台湾
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;UDP: 部分支持Full Cone
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;开业时长：2年+
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;入口ip数量 10
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;落地ip数量 32
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;付款方式：支付宝
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;四just-my-socks-搬瓦工官方机场&#34;&gt;四、Just my socks (搬瓦工官方机场)&lt;/h3&gt;
+&lt;p&gt;搬瓦工官方机场，ss+v2ray协议,线路是IPLC/GIA+CN2。 基本不会跑路，信息泄露概率小。IP 被墙自动切换。5.2%折扣优惠码：&lt;code&gt;JMS9272283&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://justmysocks.net/members/aff.php?aff=22865&#34;&gt;Just my socks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;专线: 有
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;落地：香港、日本、美国
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;开业时间：2018
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;协议：SSR + V2ray
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;专门客服：有
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;付款方式：支付宝、银联、Paypal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;五少数派&#34;&gt;五、少数派&lt;/h3&gt;
+&lt;p&gt;ss，公网+IEPL专线机场。后端负载均衡，也挺稳。需要注意提前续费，因为没有代理上不去这家官网。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：[少数派]https://sspcloud.net/#/register?code=QNrO3ncd)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;专线：有
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;落地：美国、台湾、新加坡、日本、香港、德国、英国、俄罗斯、菲律宾
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;开业时间：2019
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;UDP: 部分支持Full Cone,需要自己手动开 一键使用客户端： 有
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;入口ip数量 4
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;落地ip数量 22
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;协议：SS
+&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;付款方式：支付宝、微信、虚拟币
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+        
+      </description>
+    </item>
+    
     <item>
       <title>用户隐私政策</title>
       <link>https://www.techchao.com/post/privacy/</link>
@@ -191,115 +266,6 @@
     </item>
     
     <item>
-      <title>iOS 性能优化——启动时间</title>
-      <link>https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/</link>
-      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.techchao.com/post/ios-performance-optimization-reducing-your-apps-launch-time/</guid>
-      <description>
-        
-          &lt;blockquote&gt;
-&lt;p&gt;本篇是 iOS 性能优化系列的第一篇，讲述关于 App 的启动时长的优化&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;用户对于 App 的第一印象就是 App 的启动时长，如果 App 启动的时长过长对于用户的体验可想而知&lt;/p&gt;
-&lt;p&gt;在&lt;a href=&#34;https://developer.apple.com/videos/play/wwdc2019/423/&#34;&gt;WWDC 2019 Optimizing App Launch&lt;/a&gt;中的将 App 的启动分为冷启动（Cold）、热启动（Warm）和恢复启动（Resume）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/ios/Lanuch_Types.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;冷启动（Cold）：系统刚重启后、应用没有在内存中、应用的进程并不在系统中，需要系统创建一个进程分配给它，这是一个完整的启动过程&lt;/li&gt;
-&lt;li&gt;热启动（Warm）： 应用刚刚结束、应用的部分资源还在内存中，应用进程不在系统中&lt;/li&gt;
-&lt;li&gt;复启动（Resume）：APP 没结束，只是暂停，全在内存中，进程也存在。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我们对 App 启动时长的优化一般针对的是 App 的冷启动时长优化，根据 WWDC 的介绍，如果我们将首屏的渲染时间降低到 400ms（系统启动动画时长） 以内，那么用户的体验将会有极大的提升。&lt;/p&gt;
-&lt;p&gt;接下来，让我们按步骤一步步来优化启动时长：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;了解App启动的各阶段任务&lt;/li&gt;
-&lt;li&gt;分析各阶段任务的时长&lt;/li&gt;
-&lt;li&gt;有针对性的优化每个步骤的时长&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;同时为了准确的测量 App 的启动时长，我们对测试环境有一定的要求：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;重启手机并放置一段时间&lt;/li&gt;
-&lt;li&gt;设置飞行模式或采用 Mock 网络请求的方式来减少不稳定的网络影响测试数据&lt;/li&gt;
-&lt;li&gt;退出 iCloud 账号&lt;/li&gt;
-&lt;li&gt;使用 Release 的包进行测试&lt;/li&gt;
-&lt;li&gt;采用当前主流的设备，而不是最新或者是太久的手机&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;启动阶段分析&#34;&gt;启动阶段分析&lt;/h2&gt;
-&lt;p&gt;优化之前我们需要知道 App 启动时有哪些阶段，每个阶段都做了哪些事情，有哪些地方是我们可以优化的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/ios/Phases_of_App_Launch.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;以上6个阶段从系统初始化到 App 初始化，再到 UI 视图的创建和布局，还有 App 数据的异步加载等扩展功能,&lt;/p&gt;
-&lt;h3 id=&#34;system-interface&#34;&gt;System Interface&lt;/h3&gt;
-&lt;p&gt;在 System Interface 阶段时由操作系统控制，主要包含以下任务：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;加载可执行文件（Mach-O格式）到内存空间&lt;/li&gt;
-&lt;li&gt;执行一系列动态链接操作,进行 rebase 指针调整和 bind 符号绑定；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mach-O 文件类型主要分为：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;中间对象文件（MH_OBJECT）&lt;/li&gt;
-&lt;li&gt;可执行二进制（MH_EXECUTE）&lt;/li&gt;
-&lt;li&gt;VM 共享库文件（MH_FVMLIB）&lt;/li&gt;
-&lt;li&gt;Crash 产生的 Core 文件（MH_CORE）&lt;/li&gt;
-&lt;li&gt;preload（MH_PRELOAD）&lt;/li&gt;
-&lt;li&gt;动态共享库（MH_DYLIB）&lt;/li&gt;
-&lt;li&gt;动态链接器（MH_DYLINKER）&lt;/li&gt;
-&lt;li&gt;静态链接文件（MH_DYLIB_STUB）符号文件和调试信息（MH_DSYM）这几种。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;dyld 动态链接库也是 Mach-o 类型，所以会也会先加载到内存中 ，加载完后dyld会递归加载 App 依赖的动态库，然后执行符号绑定Rebase, Bind。一般应用会加载 100 到 400 个 dylib 文件，幸运是大部分是系统库，且系统会在操作系统启动时计算和缓存系统动态库。&lt;/p&gt;
-&lt;h3 id=&#34;runtime-init&#34;&gt;Runtime Init&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Objc 和 Swift 的初始化&lt;/p&gt;
-&lt;p&gt;通过_dyld_objc_notify_register注册回调完成相关类的注册，在 image 加载完时初始化语言相关。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;加载 category&lt;/p&gt;
-&lt;p&gt;在上面语言初始化完之后，会加载所有 category，将 category 的所有方法，协议和属性加载到对应的主类中。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;调用所有+load&lt;/p&gt;
-&lt;p&gt;在 image 加载完时，通过load_images 触发，处理该 image 相关的所有+load 方法，按照继承层级依次调用：父类+load→子类+load→category +load，注意 category 的+load 不会覆盖原类。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;调用 C++的构造函数属性函数 attribute((constructor))&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;uikit-init&#34;&gt;UIKit Init&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;实例化 UIApplication 和 UIApplicationDelegate&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;开始事件处理和系统集成&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Application Init&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;这部分是我们熟悉的 UIApplicationDelegate 的几个生命周期调用：&lt;/li&gt;
-&lt;li&gt;application:willFinishLaunchingWithOptions:&lt;/li&gt;
-&lt;li&gt;application:didFinishLaunchingWithOptions:&lt;/li&gt;
-&lt;li&gt;applicationDidBecomeActive:&lt;/li&gt;
-&lt;li&gt;scene:willConnectToSession:options:&lt;/li&gt;
-&lt;li&gt;sceneWillEnterForeground:&lt;/li&gt;
-&lt;li&gt;sceneDidBecomeActive:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;initial-frame-render&#34;&gt;Initial Frame Render&lt;/h3&gt;
-&lt;p&gt;首页第一帧的渲染，包含了创建、布局和绘制视图的工作，并把准备好的第一帧提交给渲染层渲染，以下方面会被调用&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;loadView
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;viewDidLoad
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;layoutSubviews
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;extended&#34;&gt;Extended&lt;/h3&gt;
-&lt;p&gt;Extended 主要是一些扩展的任务，苹果给出的定义是在首屏显示后，App 响应用户的操作的同时，可能存在异步请求数据，等到数据返回后重新渲染首页。&lt;/p&gt;
-&lt;h2 id=&#34;各阶段优化&#34;&gt;各阶段优化&lt;/h2&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
       <title>搬瓦工&#43;V2ray科学上网搭建新手指南</title>
       <link>https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
@@ -310,6 +276,7 @@
           &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_logo.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;一前言&#34;&gt;一、前言&lt;/h2&gt;
 &lt;p&gt;相较于目前市面上烂大街的 SSR 翻墙，V2RAY在安全、伪装、稳定等方面几乎是碾压 SSR，本教程介绍了如何搭建和使用 V2Ray ,就算是新手只要按照步骤进行操作一样可以搭建成功。&lt;/p&gt;
+&lt;p&gt;另外如果动手能力较弱可直接购买机场订阅，&lt;strong&gt;详见&lt;a href=&#34;https://www.techchao.com/post/2022ssr-v2ray/&#34;&gt;2022SSR、V2ray节点订阅机场推荐&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;二准备工作&#34;&gt;二、准备工作&lt;/h2&gt;
 &lt;p&gt;在搭建工作开始之前，你需要知道你需要经历哪些步骤：&lt;/p&gt;
 &lt;ul&gt;
@@ -481,30 +448,6 @@ centos 系统安装 Curl 方法: yum update -y &amp;amp;&amp;amp; yum install cu
 &lt;li&gt;&lt;a href=&#34;https://v2xtls.org/clash-for-windows%E9%85%8D%E7%BD%AEv2ray%E6%95%99%E7%A8%8B/&#34;&gt;Clash for Windows 配置教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://v2xtls.org/clashx%E9%85%8D%E7%BD%AEv2ray%E6%95%99%E7%A8%8B/&#34;&gt;ClashX for Mac 配置教程&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://www.techchao.com/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.techchao.com/post/rich-content/</guid>
-      <description>
-        
-          &lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;instagram-simple-shortcode&#34;&gt;Instagram Simple Shortcode&lt;/h2&gt;
-&lt;br&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
-&lt;br&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
-&lt;br&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
         
       </description>
     </item>
