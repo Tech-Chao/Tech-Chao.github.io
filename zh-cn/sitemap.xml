@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.techchao.com/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,11 +20,11 @@
                 href="https://www.techchao.com/"
                 />
   </url><url>
-    <loc>https://www.techchao.com/post/2022ssr-v2ray/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+    <loc>https://www.techchao.com/post/tik-tok/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/categories/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,10 +42,10 @@
                 />
   </url><url>
     <loc>https://www.techchao.com/post/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/tags/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -62,22 +62,28 @@
                 href="https://www.techchao.com/tags/"
                 />
   </url><url>
+    <loc>https://www.techchao.com/categories/tik-tok/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.techchao.com/tags/v2ray/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/tags/vps/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.techchao.com/tags/%E6%90%AC%E7%93%A6%E5%B7%A5/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.techchao.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.techchao.com/post/2022ssr-v2ray/</loc>
     <lastmod>2022-09-26T17:18:59+08:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/categories/%E6%9C%BA%E5%9C%BA%E8%AE%A2%E9%98%85/</loc>
     <lastmod>2022-09-26T17:18:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.techchao.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2022-09-26T17:18:59+08:00</lastmod>
-  </url><url>
     <loc>https://www.techchao.com/categories/vps/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.techchao.com/tags/%E6%90%AC%E7%93%A6%E5%B7%A5/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/</loc>
