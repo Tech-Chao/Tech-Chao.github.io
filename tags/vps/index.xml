@@ -7,7 +7,108 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.techchao.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Sep 2022 17:18:59 +0800</lastBuildDate><atom:link href="https://www.techchao.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022SSR、V2ray节点订阅机场推荐</title>
+      <link>https://www.techchao.com/post/2022ssr-v2ray/</link>
+      <pubDate>Mon, 26 Sep 2022 17:18:59 +0800</pubDate>
+      
+      <guid>https://www.techchao.com/post/2022ssr-v2ray/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;540&#34;
+        height=&#34;300&#34;
+        src=&#34;https://www.techchao.com/airport_13923711036502295183.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;机场介绍&#34;&gt;机场介绍&lt;/h2&gt;
+&lt;p&gt;前文讲过我们可以通过&lt;a href=&#34;https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/&#34;&gt;搬瓦工&lt;/a&gt;自行搭建节点外，我们还可以通过付费订阅机场来实现科学上网，相较于自行搭建使用订阅减去了很多繁琐的步骤，只需付费订阅，即可使用，无需自己搭建维护，同事可以拥有多个国家的节点，自由切换IP，缺点在于费用较贵，适用于动手能力较弱的小白。&lt;/p&gt;
+&lt;p&gt;我们可以将订阅比作是飞机场，如果要出去可以任选飞机可以到达各个国家，无需自己来造飞机或者维护就是费用较贵，而自行搭建的类似于固定路线的私人飞机，需要自己搭建及维护，目的地只能有一个，而且如果路线被禁后可能需要付费开通另外行线。&lt;/p&gt;
+&lt;p&gt;购买建议：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;尽量买有实力的机场，开的久的大机场跑路概率小，小机场可能便宜，但说不定明天就跑路了&lt;/li&gt;
+&lt;li&gt;不要太关心支持的协议，购买机场要看中的是线路的稳定，&lt;/li&gt;
+&lt;li&gt;别买太久的时间，考虑月付、季付、年付（大机场考虑），不要超过年付。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下面有几个稳定的机场推荐，包括ssr、ss、v2ray、trojan等协议：&lt;/p&gt;
+&lt;h3 id=&#34;一gacloud&#34;&gt;一、Gacloud&lt;/h3&gt;
+&lt;p&gt;专线机场，华为云广州入口，隧道至香港的CN2，香港老板，已有机场行业多年经验。自己开发的面板。稳定性不错，有按量付费和自定义套餐选项，也可以当备用。会员免费送奈菲会员体验券。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网（通过这个链接注册新用户无门槛7.5折优惠券）：&lt;a href=&#34;https://invitation.gacloud.ltd/auth/register?code=oikW&#34;&gt;Gacloud&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;节点国家与地区：香港、日本、新加坡、美国、台湾
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;UDP: 部分支持Full Cone
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;开业时间：2021
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;入口ip数量: 2 （深圳和上海）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;付款方式：支付宝
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;小白客户端：有
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;协议：SS+SSR+Trojan+v2ray
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;二tagss&#34;&gt;二、TAGSS&lt;/h3&gt;
+&lt;p&gt;南部和北部节点 （港台新澳欧洲）走广州华为云入口，过境广港专线；东部节点（日韩美、南美）走上海华为云入口，过境沪日专线。
+特色：有大量冷门节点，全球80+国家地区，各地家宽IP、原生ip，最多国家的机场，没有之一。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://tagss.pro#/register?invite=2Vae6M6E&#34;&gt;TAGSS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;节点国家与地区：非常多
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;入口：广州、上海
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;UDP：大部分支持Full Cone
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;落地：80+个国家 网络监控
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;开业时间：2018
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;落地ip数量 170+
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;协议：SSR
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;付款方式：支付宝
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;三stc-server&#34;&gt;三、STC-SERVER&lt;/h3&gt;
+&lt;p&gt;SSR + V2RAY协议机场，老板在香港，可以月付。也有按量付费。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://www2.gardenparty.me/auth/register?code=G3D8&#34;&gt;STC-SERVER&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;节点国家与地区：香港、日本、新加坡、美国、台湾
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;UDP: 部分支持Full Cone
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;开业时长：2年+
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;入口ip数量 10
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;落地ip数量 32
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;付款方式：支付宝
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;四just-my-socks-搬瓦工官方机场&#34;&gt;四、Just my socks (搬瓦工官方机场)&lt;/h3&gt;
+&lt;p&gt;搬瓦工官方机场，ss+v2ray协议,线路是IPLC/GIA+CN2。 基本不会跑路，信息泄露概率小。IP 被墙自动切换。5.2%折扣优惠码：&lt;code&gt;JMS9272283&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://justmysocks.net/members/aff.php?aff=22865&#34;&gt;Just my socks&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;专线: 有
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;落地：香港、日本、美国
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;开业时间：2018
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;协议：SSR + V2ray
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;专门客服：有
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;付款方式：支付宝、银联、Paypal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;五少数派&#34;&gt;五、少数派&lt;/h3&gt;
+&lt;p&gt;ss，公网+IEPL专线机场。后端负载均衡，也挺稳。需要注意提前续费，因为没有代理上不去这家官网。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官网：&lt;a href=&#34;https://sspcloud.net/#/register?code=QNrO3ncd&#34;&gt;少数派&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;专线：有
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;落地：美国、台湾、新加坡、日本、香港、德国、英国、俄罗斯、菲律宾
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;开业时间：2019
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;UDP: 部分支持Full Cone,需要自己手动开 一键使用客户端： 有
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;入口ip数量 4
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;落地ip数量 22
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;协议：SS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;付款方式：支付宝、微信、虚拟币
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+        
+      </description>
+    </item>
+    
     <item>
       <title>搬瓦工&#43;V2ray科学上网搭建新手指南</title>
       <link>https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/</link>
@@ -16,10 +117,36 @@
       <guid>https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/</guid>
       <description>
         
-          &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_logo.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;285&#34;
+        height=&#34;35&#34;
+        src=&#34;https://www.techchao.com/imgbwg_logo_14923860447046945816.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;一前言&#34;&gt;一、前言&lt;/h2&gt;
 &lt;p&gt;相较于目前市面上烂大街的 SSR 翻墙，V2RAY在安全、伪装、稳定等方面几乎是碾压 SSR，本教程介绍了如何搭建和使用 V2Ray ,就算是新手只要按照步骤进行操作一样可以搭建成功。&lt;/p&gt;
-&lt;p&gt;另外如果动手能力较弱可直接购买机场订阅，&lt;strong&gt;详见&lt;a href=&#34;https://www.techchao.com/post/2022ssr-v2ray/&#34;&gt;2022SSR、V2ray节点订阅机场推荐&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;另外如果动手能力较弱可直接购买机场订阅，详见&lt;a href=&#34;https://www.techchao.com/post/2022ssr-v2ray&#34;&gt;2022SSR、V2ray节点订阅机场推荐&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;二准备工作&#34;&gt;二、准备工作&lt;/h2&gt;
 &lt;p&gt;在搭建工作开始之前，你需要知道你需要经历哪些步骤：&lt;/p&gt;
 &lt;ul&gt;
@@ -82,33 +209,215 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;四购买步骤&#34;&gt;四、购买步骤&lt;/h2&gt;
 &lt;h3 id=&#34;1核对方案配置以及选择时间期限和机房&#34;&gt;1、核对方案配置以及选择时间期限和机房&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgprepay.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;655&#34;
+        height=&#34;576&#34;
+        src=&#34;https://www.techchao.com/imgprepay_4100811751607074648.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;我们然后会看到上图所示的界面，根据图示我们需要确定选择的方案以及时间，默认是洛杉矶机房，目前我，点击&amp;quot;ADD TO CART&amp;quot;添加购物车。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_checkout.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;713&#34;
+        height=&#34;283&#34;
+        src=&#34;https://www.techchao.com/imgbwg_checkout_6990902369497666114.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;del&gt;可使用&lt;code&gt;bwh8ZBPVK&lt;/code&gt;优惠码,再减6%.&lt;/del&gt;(该优惠码失效，使用&lt;code&gt;BWH3HYATVBJW &lt;/code&gt;优惠6.58%)
 核对我们选择方案的价格，没有问题后点击CHECKOUT结账。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;2登录或者新注册搬瓦工账户&#34;&gt;2、登录或者新注册搬瓦工账户&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbwg_register.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;720&#34;
+        height=&#34;610&#34;
+        src=&#34;https://www.techchao.com/imgbwg_register_10674804335370409288.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;如上图，如果我们有过账户，可以直接点击&amp;quot;Click here to login&amp;quot;登录以及付款就可以，如果还没有账户则需要注册账户。个人信息不要真实的，但也不能太离谱和乱写字符出来，好歹也要稍微用点拼音。&lt;/p&gt;
 &lt;h3 id=&#34;3进入支付选择页面&#34;&gt;3、进入支付选择页面&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgbgw_pau.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1240&#34;
+        height=&#34;1061&#34;
+        src=&#34;https://www.techchao.com/imgbgw_pau_16588733925423416816.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;选择支付宝完成支付。&lt;/p&gt;
 &lt;h2 id=&#34;五获取-vps-信息&#34;&gt;五、获取 VPS 信息&lt;/h2&gt;
 &lt;p&gt;购买完 VPS 之后，接着我们开始获取 VPS 信息。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;选择My Services&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgmy_service.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1240&#34;
+        height=&#34;342&#34;
+        src=&#34;https://www.techchao.com/imgmy_service_134600764178924227.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;进入kimivm control panel&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgcontrol_panel.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;690&#34;
+        height=&#34;199&#34;
+        src=&#34;https://www.techchao.com/imgcontrol_panel_15457395132616062004.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;获取 IP 地址 和 端口号&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgip_port_main.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1544&#34;
+        height=&#34;272&#34;
+        src=&#34;https://www.techchao.com/imgip_port_main_13325838039215131406.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;六安装-xshellwindows或-iterm2macos&#34;&gt;六、安装 Xshell（WINDOWS）或 iTerm2（macOS）&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -120,17 +429,95 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;七登录-vps&#34;&gt;七、登录 VPS&lt;/h2&gt;
 &lt;p&gt;以 Xshell登录 VPS 为例，打开软件之后我们需要新建一个窗口SSH.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgxshell_panel.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;473&#34;
+        height=&#34;124&#34;
+        src=&#34;https://www.techchao.com/imgxshell_panel_12945388954389126702.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;拿到我们上一步获取到的 IP 和 端口号，填入输入框&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgpwd_input.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;532&#34;
+        height=&#34;472&#34;
+        src=&#34;https://www.techchao.com/imgpwd_input_16427967210438218325.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;用户名我们没有特别设置之后，就是默认的root，然后是密码。然后保存之后就可以连接。
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgpwd_input.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;532&#34;
+        height=&#34;472&#34;
+        src=&#34;https://www.techchao.com/imgpwd_input_16427967210438218325.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;小提示：如果连接后出现提示“WARNING! The remote SSH server rejected X11 forwarding request.”，不要担心。运行下面的命令就可以解决，Xshell界面支持鼠标右键的复制粘贴，按回车键就可以运行命令。（键盘的Ctrl+C、Ctrl+V是无效的哦）完成后重新连接vps服务器即可。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;yum install xorg-x11-xauth -y
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;八安装-v2ray&#34;&gt;八、安装 V2Ray&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;yum install xorg-x11-xauth -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;八安装-v2ray&#34;&gt;八、安装 V2Ray&lt;/h2&gt;
 &lt;p&gt;输入下面命令回车，你可以复制过去，然后在 Xshell 界面右键或者按 Shift + Insert 即可粘贴。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;bash &amp;lt;(curl -s -L https://git.io/v2ray.sh)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -s -L https://git.io/v2ray.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&#34;notices tip&#34;&gt;
     &lt;div class=&#34;label&#34;&gt;Tip&lt;/div&gt;
     &lt;p&gt;如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
@@ -140,7 +527,33 @@ centos 系统安装 Curl 方法: yum update -y &amp;amp;&amp;amp; yum install cu
 
   &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_setting.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1067&#34;
+        height=&#34;1077&#34;
+        src=&#34;https://www.techchao.com/imgv2ray_setting_6329998263134142918.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;然后选择安装，即是输入 1 回车,&lt;/li&gt;
 &lt;li&gt;选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车&lt;/li&gt;
@@ -148,7 +561,33 @@ centos 系统安装 Curl 方法: yum update -y &amp;amp;&amp;amp; yum install cu
 &lt;li&gt;是否屏蔽广告，除非你真的需要，一般来说，直接回车即可&lt;/li&gt;
 &lt;li&gt;这时会提示你“是否配置 Shadowsocks ”，默认为“N”不配置 Shadowsocks，输入“Y”回车代表配置 Shadowsocks，直接回车即可。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_config.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1000&#34;
+        height=&#34;837&#34;
+        src=&#34;https://www.techchao.com/imgv2ray_config_16120033037284125507.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;按照上图信息设置完毕后“回车”会看到下图提示，&lt;/p&gt;
 &lt;p&gt;———- 安装信息 ————-&lt;/p&gt;
 &lt;p&gt;V2Ray 传输协议 = TCP&lt;/p&gt;
@@ -156,16 +595,68 @@ centos 系统安装 Curl 方法: yum update -y &amp;amp;&amp;amp; yum install cu
 &lt;p&gt;是否配置 Shadowsocks = 未配置&lt;/p&gt;
 &lt;p&gt;———- END ————-&lt;/p&gt;
 &lt;p&gt;然后提示你“按 Enter 回车键 继续….或按 Ctrl + C 取消”，我们按“Enter”键回车后安装 V2ray，如图（安装信息可能会因你的配置而变化，不用在乎截图信息）：
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_config_confirm.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1000&#34;
+        height=&#34;775&#34;
+        src=&#34;https://www.techchao.com/imgv2ray_config_confirm_17548022814267749401.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;接下来就是 V2ray 的安装过程，耐心等待即可，V2ray 安装完成后如图：
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Tech-Chao/blog-images/imgv2ray_success.png&#34; alt=&#34; =100x100&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34; =100x100&#34;
+      
+        class=&#34;image_figure image_external image_processed&#34;
+        width=&#34;1000&#34;
+        height=&#34;775&#34;
+        src=&#34;https://www.techchao.com/imgv2ray_success_16169956416489199739.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;上图的 V2ray 配置信息，用 V2RAY 的客户端配置号上图信息就能正常的科学上网了。&lt;/p&gt;
 &lt;p&gt;如果需要生成“vmess URL 链接”或者“二维码图片”输入以下命令：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;# vmess URL 链接
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;v2ray url
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;# 二维码图片
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;v2ray qe
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;九v2ray-客户端使用教程&#34;&gt;九、V2Ray 客户端使用教程&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;# vmess URL 链接
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;v2ray url
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;# 二维码图片
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;v2ray qe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;九v2ray-客户端使用教程&#34;&gt;九、V2Ray 客户端使用教程&lt;/h2&gt;
 &lt;p&gt;在配置服务器成功之后,我们有了上面的 V2ray 配置信息后，通过下载相应的客户端进行配置后就能够连接外网了。&lt;/p&gt;
 &lt;p&gt;目前我在用的是 &lt;strong&gt;Clash&lt;/strong&gt;(颜值在线)，而且除了 iOS 平台下载不方便外，Windows、Mac、Android都已支持。&lt;/p&gt;
 &lt;ol&gt;
