@@ -23,7 +23,7 @@
 &lt;ol&gt;
 &lt;li&gt;科学上网+小火箭&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;最简单的方法就是直接网页打开抖音国际版tiktok.com，无需拔卡，当然前提是你能够正常上网，什么是正常上网这个懂的应该都知道，不懂的可以查看下方原文链接。&lt;/p&gt;
+&lt;p&gt;最简单的方法就是直接网页打开抖音国际版tiktok.com，无需拔卡，当然前提是你能够正常上网，什么是正常上网这个懂的应该都知道，不懂的可以&lt;a href=&#34;https://www.techchao.com/post/tiktok/#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%95%99%E7%A8%8B&#34;&gt;查看下方教程&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;打开tiktok网页版后视频内容会根据你网络的IP地址自动推送相关地区的视频，比如要看日本区的视频，只需要将网络ip切换到日本刷新即可。电脑刷视频无需登录，手机刷会有登录弹窗，我们使用未登录过tiktok的gmail邮箱（自行在google上注册）登录即可，点赞&amp;amp;评论都可以。
 网页版 tiktok 适合初次体验使用简单，就是操作上会有卡顿。
 ​
@@ -263,28 +263,70 @@
 &lt;p&gt;打开手机设置——通用——VPN与设备管理——点击自己Apple ID账号信任。&lt;/p&gt;
 &lt;p&gt;至此配置都算完成了，接下来我们需要打开科学上网工具在打开 tiktok 登录使用即可。
 Tips：此方法因为有7天的时效性，到期后不要卸载软件，只需要重复之前签名+安装操作即可。app内的登录数据等都不会丢失。&lt;/p&gt;
-&lt;h3 id=&#34;科学上网教程&#34;&gt;科学上网教程&lt;/h3&gt;
-&lt;p&gt;科学上网首先就需要相应的客户端，然后需要寻找免费的节点或者付费稳定的机场再或者自己动手搭建。&lt;/p&gt;
-&lt;p&gt;首先来看iOS客户端，目前国内的App Store是不会上架这些App的，我们只能通过外区的Apple ID付费下载（没有免费的）。&lt;/p&gt;
+&lt;h3 id=&#34;五科学上网&#34;&gt;五、科学上网&lt;/h3&gt;
+&lt;p&gt;请看这篇：&lt;a href=&#34;https://www.techchao.com//post/scientificinterent/&#34;&gt;科学上网科普及搭建指南&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>科学网上科普及搭建使用教程</title>
+      <link>https://www.techchao.com/post/scientificinterent/</link>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.techchao.com/post/scientificinterent/</guid>
+      <description>
+        
+          &lt;h2 id=&#34;科学上网&#34;&gt;科学上网&lt;/h2&gt;
+&lt;h3 id=&#34;科学上网科普&#34;&gt;科学上网科普&lt;/h3&gt;
+&lt;p&gt;首先来科普下什么是科学上网，科学上网又称之为翻墙，既然是翻墙，那么总的有座墙，我们要翻得墙叫做「长城防火墙」的英文全称叫：The Great Firewall。长城防火墙的存在是为了规范和监管中国互联网，它通过相关硬件和软件防火墙组成的一道过滤网，用于保护中国大陆的网络环境。它监管着所有的跨境互联网流量，并阻止中国大陆网民访问一些外部Web服务，所谓的“科学上网”，也就是通过一些技术手段来绕过中国长城防火墙的监管和限制，去访问一些国外的网站和服务。而想要绕过中国长城防火墙的监管和限制，就必须要使用“科学上网工具”或者“翻牆软件”。&lt;/p&gt;
+&lt;h3 id=&#34;科学上网原理&#34;&gt;科学上网原理&lt;/h3&gt;
+&lt;p&gt;科学上网主要通过 VPN、ss、ssr、v2ray 、代理等对上网的流量、数据加密，以此躲避 GFW 长城防火墙检测，实现自由上网，也被用于数据传输安全、网络匿名、隐私保护等。&lt;/p&gt;
+&lt;p&gt;适用： Windows、Linux、Mac、Android、IOS、路由器、TV 等全平台&lt;/p&gt;
+&lt;h3 id=&#34;ssssrv2ray-机场&#34;&gt;SS、SSR、V2ray 机场&lt;/h3&gt;
+&lt;h4 id=&#34;ssssrv2ray-是什么&#34;&gt;SS、SSR、V2ray 是什么？&lt;/h4&gt;
+&lt;p&gt;三个都是目前科学上网比较主流的加密协议,通过加密混淆伪装成正常流量，让 GFW 防火墙识别更困难，用户只需付费订阅后，服务商会提供对应的服务配置甚至有些会提供对应的客户端，真正做到开箱即用适合小白使用。&lt;/p&gt;
+&lt;h4 id=&#34;搭建自己的科学上网服务器&#34;&gt;搭建自己的科学上网服务器&lt;/h4&gt;
+&lt;p&gt;需要一定动手能力，只要你有网络，几分钟便能搭建一台可以科学上网的代理服务器，科学上网的终极姿势。&lt;/p&gt;
+&lt;p&gt;上文的机场实际上就是替你完成了搭建这一步，直接向你提供搭建好的节点供你使用。&lt;/p&gt;
+&lt;p&gt;此方案理论永久可行，尤其是在出现特殊情况，比如：封锁严重，大面积科学上网失效的时候作为应急方案。IP 被封更换 IP 即可，适合喜欢折腾的同学。&lt;/p&gt;
+&lt;p&gt;不喜欢折腾的小白建议还是用机场，省事省心，至于如何使用机场或是自己待见科学上网服务器，可以参考下这两篇文章。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/&#34;&gt;搭建自己的科学上网服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techchao.com/post/2022ssr-v2ray/&#34;&gt;订阅机场，新手强烈推荐&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;客户端&#34;&gt;客户端&lt;/h4&gt;
+&lt;p&gt;搭建完后翻墙服务器或者购买完机场后还需要配合客户端才能正常使用，首先来看iOS客户端，目前国内的App Store是不会上架这些App的，我们只能通过外区的Apple ID付费下载（没有免费的）。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Shadowrocket（俗称小火箭，注意不是 shadowrocket VPN）&lt;/li&gt;
 &lt;li&gt;i2Ray&lt;/li&gt;
 &lt;li&gt;pepi&lt;/li&gt;
 &lt;li&gt;QuantumultX&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;以上App我们可以通过自己&lt;a href=&#34;https://zhuanlan.zhihu.com/p/452378078&#34;&gt;注册海外Apple账号&lt;/a&gt;或者淘宝购买Apple账号后，购买礼品卡充值购买。也可以直接在网上购买的成品号下载。&lt;/p&gt;
-&lt;p&gt;如果是其它的客户端，可以考虑使用 Clash，Windows、Mac、Android都已支持。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Mac+ClashX: &lt;a href=&#34;https://github.com/yichengchen/clashX/releases&#34;&gt;clashX-v1.30.1.dmg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Windows+Clash: &lt;a href=&#34;https://github.com/Fndroid/clash_for_windows_pkg/releases&#34;&gt;Clash.for.windows-0.11.6.exe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Android+Clash: &lt;a href=&#34;https://github.com/Kr328/ClashForAndroid/releases&#34;&gt;ClashForAndroid-v2.0.18.apk&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;安装完对应的客户端后，我们需要订阅机场或者自建节点，可以参考下之前文章。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.techchao.com/post/bandwagon-host-v2ray-beginners-guide/&#34;&gt;自建节点&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.techchao.com/post/2022ssr-v2ray/&#34;&gt;订阅机场，新手强烈推荐&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;搭配使用即可完成。&lt;/p&gt;
+&lt;p&gt;以上App我们可以通过自己&lt;a href=&#34;https://zhuanlan.zhihu.com/p/452378078&#34;&gt;注册海外Apple账号教程&lt;/a&gt;或者淘宝购买Apple账号后，购买礼品卡充值购买。也可以直接在网上购买的成品号下载。其它客户端下载见下表。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;客户端&lt;/th&gt;
+&lt;th&gt;下载地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows SSR客户端&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases&#34;&gt;官方网站&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mac SSR客户端&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases&#34;&gt;官方网站&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;安卓SSR各版本客户端&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/shadowsocksrr/shadowsocksr-android/releases/&#34;&gt;官方网站&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
         
       </description>
